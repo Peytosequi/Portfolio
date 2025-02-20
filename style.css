@@ -9,6 +9,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background: rgb(238, 247, 238)
 }
 
 html {
@@ -54,12 +55,13 @@ a {
 a:hover {
     color: rgb(130, 190, 130);
     text-decoration: underline;
-    text-underline-offset: .5rem;
+    text-underline-offset: .52rem;
     text-decoration-color: rgb(145, 209, 145) ;
 }
 
 .logo {
     font-size: 2rem;
+    color: rgb(15, 73, 15);
 }
 
 .logo:hover {
@@ -90,7 +92,7 @@ a:hover {
     width: 100%;
     height: 2px;
     background-color: rgb(31, 112, 31);
-    transition: all 0.3 ease-in-out;
+    transition: all 0.7 ease-in-out;
 }
 
 .menu-links {
@@ -101,17 +103,24 @@ a:hover {
     width: fit-content;
     max-height: 0;
     overflow: hidden;
-    transition: all 0.3 ease-in-out;
+    transition: all 0.7 ease-in-out;
+}
+
+.menu-links a:hover {
+    text-decoration: underline;
+    text-underline-offset: .25rem;
+    text-decoration-color: rgb(145, 209, 145);
 }
 
 .menu-links a {
     display: block;
     padding: 10px;
     text-align: center;
-    font-size: 1.5 rem;
+    font-size: 1.7 rem;
+    background: rgb(238, 247, 238);
     color: rgb(130, 190, 130);
     text-decoration: none;
-    transition: all 0.3 ease-in-out;
+    transition: all 0.7 ease-in-out;
 }
 
 .menu-links li {
