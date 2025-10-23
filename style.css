@@ -196,22 +196,89 @@ section {
 
 .section_text_p1 {
     text-align: center;
+    color: rgb(31, 112, 31)
 }
 
-.section_text_p1 {
+.section_text_p2 {
+    font-size: 1.75rem;
+    margin-bottom: .1rem;
+    color: rgb(31, 112, 31)
+}
+
+.section_text_p3 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    color: rgb(31, 112, 31)
 }
+
 
 .title {
     font-size: 3rem;
     text-align: center;
+    color:rgb(15, 73, 15)
 }
 
 #socials-container {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* ICONS */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+    color:rgb(15, 73, 15)
+}
+
+/* BUTTONS */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-color-1, 
+.btn-color-2 {
+    border: rgb(31, 112, 31) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+    cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+    background:rgb(31, 112, 31);
+    color: white;
+}
+
+.btn-color-1:hover {
+    background: rgb(31, 112, 31);
+}
+
+.btn-color-2 {
+    background: none;
+    color:rgb(31, 112, 31);
+}
+
+.btn-color-2:hover {
+    border: rgb(245, 249, 245) 0.1rem solid;
+}
+
+.btn-container {
     gap: 1rem;
 }
 
